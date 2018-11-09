@@ -12,7 +12,7 @@
     "headerBackgroundColor": {
       "type": "admin",
       "destination": "frontend",
-      "default": "#000",
+      "default": null,
       "params": {
         "type": "text",
         "label": "Color of Header Background on Startpage"
@@ -30,7 +30,7 @@
     "headerBackgroundColorDefault": {
       "type": "admin",
       "destination": "frontend",
-      "default": "#000",
+      "default": null,
       "params": {
         "type": "text",
         "label": "Default Color of Header Background"
