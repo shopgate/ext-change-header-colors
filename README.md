@@ -9,6 +9,10 @@ Shopgate offers everything online retailers need to be successful in mobile. Our
 software-as-a-service (SaaS) enables online stores to easily create, maintain and optimize native
 apps and mobile websites for the iPhone, iPad, Android smartphones and tablets.
 
+## Contributing
+
+See [CONTRIBUTING.md](docs/CONTRIBUTING.md) file for more information.
+
 ## License
 
 Shopgate Connect - Extension Magento Favorites is available under the Apache License, Version 2.0.
