@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "id": "@shopgate/change-header-colors",
+  "components": [
+    {
+      "id": "Subscribers",
+      "path": "frontend/subscriptions/index.js",
+      "type": "subscribers"
+    }
+  ],
+  "configuration": {
+    "headerBackgroundColor": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "#000",
+      "params": {
+        "type": "text",
+        "label": "Color of Header Background on Startpage"
+      }
+    },
+    "headerColor": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": null,
+      "params": {
+        "type": "text",
+        "label": "Textcolor (Icons) of Header on Startpage"
+      }
+    },
+    "headerBackgroundColorDefault": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "#000",
+      "params": {
+        "type": "text",
+        "label": "Default Color of Header Background"
+      }
+    },
+    "headerColorDefault": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": null,
+      "params": {
+        "type": "text",
+        "label": "Default Textcolor (Icons) of Header"
+      }
+    }
+  }
+}
