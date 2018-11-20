@@ -1,5 +1,16 @@
-# ext-change-header-colors
-This extension changes the background and text color of the header on the home page
+# Shopgate Connect - Change Header Colors Extension
+
+[![GitHub license](http://dmlc.github.io/img/apache2.svg)](LICENSE)
+
+This extension changes the background and text color of the header on the home page.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) file for more information.
+
+## Contributing
+
+See [CONTRIBUTING.md](docs/CONTRIBUTING.md) file for more information.
 
 ## About Shopgate
 
@@ -15,6 +26,6 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md) file for more information.
 
 ## License
 
-Shopgate Connect - Extension Magento Favorites is available under the Apache License, Version 2.0.
+This extension is available under the Apache License, Version 2.0.
 
-See the [LICENSE](./LICENSE.md) file for more information.
+See the [LICENSE](./LICENSE) file for more information.
