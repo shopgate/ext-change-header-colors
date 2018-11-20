@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0",
   "id": "@shopgate/change-header-colors",
   "components": [
     {
@@ -9,7 +9,7 @@
     }
   ],
   "configuration": {
-    "headerBackgroundColor": {
+    "headerHomePageBackgroundColor": {
       "type": "admin",
       "destination": "frontend",
       "default": null,
@@ -18,7 +18,7 @@
         "label": "Color of Header Background on Startpage"
       }
     },
-    "headerColor": {
+    "headerHomeTextColor": {
       "type": "admin",
       "destination": "frontend",
       "default": null,
@@ -36,7 +36,7 @@
         "label": "Default Color of Header Background"
       }
     },
-    "headerColorDefault": {
+    "headerTextColorDefault": {
       "type": "admin",
       "destination": "frontend",
       "default": null,
