@@ -18,7 +18,7 @@
         "label": "Color of Header Background on Startpage"
       }
     },
-    "headerHomeTextColor": {
+    "headerHomePageTextColor": {
       "type": "admin",
       "destination": "frontend",
       "default": null,
