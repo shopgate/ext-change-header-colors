@@ -1,11 +1,17 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "id": "@shopgate/change-header-colors",
   "components": [
     {
       "id": "Subscribers",
       "path": "frontend/subscriptions/index.js",
       "type": "subscribers"
+    },
+    {
+      "id": "Style fixes",
+      "path": "frontend/globalCss/style.js",
+      "type": "portals",
+      "target": "app.globals"
     }
   ],
   "configuration": {
