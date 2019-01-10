@@ -5,7 +5,7 @@ import {
 
 /**
  * Set Background Color action.
- * @param {string} color ProductId.
+ * @param {string} color color.
  * @returns {Object}
  */
 export const setBackgroundColor = color => ({
@@ -15,7 +15,7 @@ export const setBackgroundColor = color => ({
 
 /**
  * Set Color action.
- * @param {string} color ProductId.
+ * @param {string} color color.
  * @returns {Object}
  */
 export const setColor = color => ({

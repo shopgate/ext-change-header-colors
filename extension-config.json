@@ -12,13 +12,19 @@
       "path": "frontend/globalCss/style.js",
       "type": "portals",
       "target": "app.globals"
+    },
+    {
+      "id": "HomeAppBar",
+      "path": "frontend/components/HomeAppBar",
+      "type": "portals",
+      "target": "app-bar.default"
     }
   ],
   "configuration": {
     "headerHomePageBackgroundColor": {
       "type": "admin",
       "destination": "frontend",
-      "default": null,
+      "default": "red",
       "params": {
         "type": "text",
         "label": "Color of Header Background on Startpage"
@@ -27,7 +33,7 @@
     "headerHomePageTextColor": {
       "type": "admin",
       "destination": "frontend",
-      "default": null,
+      "default": "green",
       "params": {
         "type": "text",
         "label": "Textcolor (Icons) of Header on Startpage"
