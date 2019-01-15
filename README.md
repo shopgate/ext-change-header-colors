@@ -9,8 +9,6 @@ This extension changes the background and text color of the header on the home p
 Set the following values in your Shopgate Connect Admin:
 * headerHomePageBackgroundColor - (text) The background color of the header on the homepage.
 * headerHomePageTextColor - (text) The color of header icons and text on the homepage.
-* headerBackgroundColorDefault - (text) The background color of the header on any page viewed after the home page. If not set default color is used. 
-* headerTextColorDefault - (text) The color of header icons and text on any page viewed after the home page. If not set default color is used.
 
 ## About Shopgate
 
