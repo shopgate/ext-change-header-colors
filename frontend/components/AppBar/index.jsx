@@ -3,19 +3,20 @@ import connect from './connector';
 import { HEADER_BACKGROUND_COLOR, HEADER_COLOR } from '../../constants';
 
 /**
- * Renders HomeAppBar
+ * Renders AppBar
  * @param {Object} AppBar AppBar
- * @param {bool} isHome isHome
+ * @param {boolean} changeHeader changeHeader
  * @returns {Jsx}
  */
-const HomeAppBar = ({ children, isHome }) => {
-  if (!isHome) {
+const AppBar = ({ children, changeHeader }) => {
+  if (!changeHeader) {
     return children;
   }
+
   return React.cloneElement(children, {
     backgroundColor: HEADER_BACKGROUND_COLOR,
     textColor: HEADER_COLOR,
   });
 };
 
-export default connect(HomeAppBar);
+export default connect(AppBar);

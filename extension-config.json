@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "3.0.0",
   "id": "@shopgate/change-header-colors",
   "components": [
     {
@@ -10,28 +10,37 @@
     },
     {
       "id": "HomeAppBar",
-      "path": "frontend/components/HomeAppBar",
+      "path": "frontend/components/AppBar",
       "type": "portals",
       "target": "app-bar.default"
     }
   ],
   "configuration": {
-    "headerHomePageBackgroundColor": {
+    "backgroundColor": {
       "type": "admin",
       "destination": "frontend",
       "default": null,
       "params": {
         "type": "text",
-        "label": "Color of Header Background on Startpage"
+        "label": "Color of Header Background"
       }
     },
-    "headerHomePageTextColor": {
+    "textColor": {
       "type": "admin",
       "destination": "frontend",
       "default": null,
       "params": {
         "type": "text",
-        "label": "Textcolor (Icons) of Header on Startpage"
+        "label": "Textcolor (Icons) of Header"
+      }
+    },
+    "affectedPages": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": [],
+      "params": {
+        "type": "json",
+        "label": "Whitelist where the header should change eg [\"/\", \"/item\"]. Default [] will change it on every page"
       }
     }
   }

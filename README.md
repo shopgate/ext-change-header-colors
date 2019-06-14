@@ -2,13 +2,14 @@
 
 [![GitHub license](http://dmlc.github.io/img/apache2.svg)](LICENSE)
 
-This extension changes the background and text color of the header on the home page.
+This extension changes the background and text color of the header.
 
 ## Configuration
 
 Set the following values in your Shopgate Connect Admin:
-* headerHomePageBackgroundColor - (text) The background color of the header on the homepage.
-* headerHomePageTextColor - (text) The color of header icons and text on the homepage.
+* backgroundColor - (text) The background color of the header.
+* textColor - (text) The color of header icons and text.
+* affectedPages - (Array) Whitelist where the header should change eg `["/", "/item"]`. Default `[] will change it on every page"
 
 ## About Shopgate
 
