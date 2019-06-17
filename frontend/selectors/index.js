@@ -12,7 +12,7 @@ let shouldChangeHeader = () => true;
 if (affectedPages && affectedPages.length) {
   shouldChangeHeader = createSelector(
     getCurrentRoute,
-    route => affectedPages.some(page => route.pattern.startsWith(page))
+    route => affectedPages.includes(route.pattern)
   );
 }
 

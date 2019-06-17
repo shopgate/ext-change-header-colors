@@ -40,7 +40,7 @@
       "default": [],
       "params": {
         "type": "json",
-        "label": "Whitelist where the header should change eg [\"/\", \"/item\"]. Default [] will change it on every page"
+        "label": "Whitelist where the header should change eg [\"/\", \"/category/:categoryId\", \"/item/:productId\"]. Default [] will change it on every page"
       }
     }
   }
