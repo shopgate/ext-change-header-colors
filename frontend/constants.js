@@ -1,10 +1,10 @@
 import getConfig from './helpers/getConfig';
 
 const {
-  headerHomePageBackgroundColor,
-  headerHomePageTextColor,
+  backgroundColor,
+  textColor,
 } = getConfig();
 
-export const HEADER_BACKGROUND_COLOR = headerHomePageBackgroundColor || null;
-export const HEADER_COLOR = headerHomePageTextColor || null;
+export const HEADER_BACKGROUND_COLOR = backgroundColor || null;
+export const HEADER_COLOR = textColor || null;
 

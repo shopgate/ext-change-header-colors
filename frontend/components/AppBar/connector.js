@@ -1,12 +1,12 @@
 import { connect } from 'react-redux';
-import { getCurrentPathname } from '@shopgate/pwa-common/selectors/router';
+import { shouldChangeHeader } from '../../selectors';
 
 /**
  * @param {Object} state state
  * @returns {Object}
  */
 const mapStateToProps = state => ({
-  isHome: getCurrentPathname(state) === '/',
+  changeHeader: shouldChangeHeader(state),
 });
 
 export default connect(mapStateToProps);

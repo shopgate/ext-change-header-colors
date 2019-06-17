@@ -1,6 +1,6 @@
 {
   "name": "@shopgate/change-header-colors",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "license": "UNLICENSED",
   "scripts": {
@@ -36,6 +36,6 @@
   },
   "peerDependencies": {
     "@shopgate/pwa-common": "^6.1.0",
-    "@shopgate/pwa-core":"^6.1.0"
+    "@shopgate/pwa-core": "^6.1.0"
   }
 }
