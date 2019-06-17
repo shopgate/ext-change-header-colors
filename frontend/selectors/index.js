@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { getCurrentPathname } from '@shopgate/pwa-common/selectors/router';
+import { getCurrentRoute } from '@shopgate/pwa-common/selectors/router';
 import getConfig from '../helpers/getConfig';
 
 const {
@@ -11,8 +11,8 @@ let shouldChangeHeader = () => true;
 
 if (affectedPages && affectedPages.length) {
   shouldChangeHeader = createSelector(
-    getCurrentPathname,
-    pathname => affectedPages.includes(pathname)
+    getCurrentRoute,
+    route => affectedPages.some(page => route.pattern.startsWith(page))
   );
 }
 
